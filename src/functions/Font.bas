@@ -8,7 +8,7 @@ Function IncreaseFontSize(Optional ByVal g As String) As Boolean
 
     Dim i As Long
     For i = 1 To gVim.Count1
-        Application.CommandBars.ExecuteMso "GrowFont"
+        Application.CommandBars.ExecuteMso "FontSizeIncrease"
     Next i
 End Function
 
@@ -18,7 +18,7 @@ Function DecreaseFontSize(Optional ByVal g As String) As Boolean
 
     Dim i As Long
     For i = 1 To gVim.Count1
-        Application.CommandBars.ExecuteMso "ShrinkFont"
+        Application.CommandBars.ExecuteMso "FontSizeDecrease"
     Next i
 End Function
 
